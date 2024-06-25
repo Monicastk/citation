@@ -1,4 +1,6 @@
-export const citationsMock = [
+import { citationInterface } from "./entites";
+
+export const citationsMock:citationInterface[] = [
     {
         author:"Winston Churchill",
         citation:"Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.",
